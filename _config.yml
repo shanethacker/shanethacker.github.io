@@ -8,8 +8,8 @@ relative_permalinks: true
 title:               The Clockwork Mind
 tagline:             '...armed with the knowledge you get by simply paying attention...'
 description:         'Reading maketh a full man, conference a ready man, and writing an exact man. - Francis Bacon'
-url:                 http://www.clockworkmind.com
-# enforce_ssl:         www.clockworkmind.com
+url:                 https://www.clockworkmind.com
+enforce_ssl:         www.clockworkmind.com
 baseurl:             ''
 paginate:            5
 highlighter:         pygments
