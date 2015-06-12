@@ -1,4 +1,4 @@
-# Clockworkmind.com: A Development Blog
+# clockworkmind.com: a development blog
 
 I decided to host this blog on [GitHub Pages](https://pages.github.com) for now. Might as well have it close to my projects.
 
