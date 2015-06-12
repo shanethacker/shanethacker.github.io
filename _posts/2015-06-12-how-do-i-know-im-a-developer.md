@@ -11,8 +11,8 @@ As you can imagine, a person who spends a lot of time setting up the perfect beg
 
 Writing on blogs is that kind of thing. You can write and rewrite, but if you don't finish and publish, there isn't much of a point. So, I'm hoping this blog will be an outlet to encourage some imperfect work along the way.
 
-Since I'm always learning new things, I'll keep track of new programming and development knowledge here, and I'll link over to some of my experiments when they make it to (GitHub)[https://github.com/shanethacker]. Unlike at work, I'm hoping for successes *and* failures here.
+Since I'm always learning new things, I'll keep track of new programming and development knowledge here, and I'll link over to some of my experiments when they make it to [GitHub](https://github.com/shanethacker). Unlike at work, I'm hoping for successes *and* failures here.
 
-In the meantime, if you'd like to know more about me, take a quick trip over to (The Phantom City)[http://www.thephantomcity.com], my personal blog.
+In the meantime, if you'd like to know more about me, take a quick trip over to [The Phantom City](http://www.thephantomcity.com), my personal blog.
 
 Thanks for coming along for the ride.
