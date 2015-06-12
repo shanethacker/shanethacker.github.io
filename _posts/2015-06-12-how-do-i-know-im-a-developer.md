@@ -1,6 +1,8 @@
 ---
 layout: post
 title: How do I know I'm a developer?
+category: about
+tags: [github, about]
 ---
 
 I spend so much time figuring out new ways and tools to be more productive, I think it might cut into my productivity.
