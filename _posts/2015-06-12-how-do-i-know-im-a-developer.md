@@ -15,4 +15,4 @@ Since I'm always learning new things, I'll keep track of new programming and dev
 
 In the meantime, if you'd like to know more about me, take a quick trip over to [The Phantom City](http://www.thephantomcity.com), my personal blog.
 
-Thanks for coming along for the ride. test
+Thanks for coming along for the ride.
