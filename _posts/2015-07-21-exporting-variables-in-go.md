@@ -40,7 +40,7 @@ I pretty much just copied the code from the top answer, using my preferred camel
     	fmt.Println(configuration.apiURL)
     }
 
-The problem was, whenever I ran the code, I just got blank in the console. No error, just blank. I went to look at why, and remembered that Go sets variables that start with lowercase to be private to the package, while uppercase variables are public outside of the package. (Sort of.)
+The problem was, whenever I ran the code, I just got blank in the console. No error, just blank. I went to look at why, and remembered that Go sets variables that start with lowercase to be private to the package, while uppercase variables are public outside of the package. This is called Exporting.
 
 Changing the struct fields to start with uppercase, like so, made everything work.
 
