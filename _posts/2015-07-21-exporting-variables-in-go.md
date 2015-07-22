@@ -71,3 +71,5 @@ type configuration struct {
 ```
 
 Lessons learned. If I'm incorrect about any of this, hit me up [@shanethacker](https://twitter.com/shanethacker).
+
+Update: [Tags in Go structs look interesting.](https://machiel.me/using-tags-in-go/) I'd bet `Decode` can use them for matching.
