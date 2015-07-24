@@ -6,4 +6,4 @@ The blog is based on GitHub's version of [Jekyll](http://jekyllrb.com). The them
 
 I'm typing this up on Microsoft's [Visual Studio Code](https://code.visualstudio.com/) right now, but I'll probably use [Sublime Text](http://www.sublimetext.com/) and [Notepad++](https://notepad-plus-plus.org/) as well. (Actually, what I'm noticing is that I need a spell checker.)
 
-My personal computer is a MacBook Pro, but work is all Windows. [Getting Jeckyll to work properly on Windows](http://jekyll-windows.juthilo.com/) is interesting.
+My personal computer is a MacBook Pro, but work is all Windows. [Getting Jekyll to work properly on Windows](http://jekyll-windows.juthilo.com/) is interesting.
