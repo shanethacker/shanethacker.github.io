@@ -51,7 +51,7 @@ See any problems? Yep, it's a relative link, so it requires the browser to make 
 
 Chrome and Firefox just ignored the whole thing and pulled the favicon.ico from the root. IE followed it, but only sometimes. I'm not sure, and probably never really will be sure, why there was a difference between the client IE and mine, but I suspect mine had cached the file at some point while the client's IE requested it sometimes. The *sometimes* was just consistent enough to appear to happen on certain subtopic values and not others.
 
-So, the effect, many times, was that the page would load with the proper URL and proper information, that it would store in the session variables. The page would then reload into the browser using a URL without a valid subtopic value and ending in a filename. IE would pull all of the data into that presumed file, and then discard it as not being a legitimate .ico file, never actually reloading the page. That second run through the process overwrote the session variables with all of the same information, except for that one variable at the end that had an invalid value. Validation would quietly set it to null, since usually the page results and URL would clue you in on what was wrong.
+So, the effect, many times, was that the page would load with the proper URL and proper information, that it would store in the session variables. The page would then reload into the browser using a URL without a valid subtopic value and ending in a filename. IE would pull all of the data into that presumed file, and then discard it as not being a legitimate .ico file, never actually reloading the visible page. That second run through the process overwrote the session variables with all of the same information, except for that one variable at the end that had an invalid value. Validation would quietly set it to null, since usually the page results and URL would clue you in on what was wrong.
 
 I removed the offending line, and we were all good. Even the client's IE was fine with the root version of the favicon.ico.
 
@@ -64,3 +64,4 @@ Conclusion:
 * Examining the actual traffic more often would have brought this bug to light.
 * 90% of the users are using a slightly different system than I am. We need one of those for testing.
 * No matter how innocuous it seems, copying and pasting deserves extra testing attention.
+* Validation really needs to send a message, even if it seems like it could just be quiet.
