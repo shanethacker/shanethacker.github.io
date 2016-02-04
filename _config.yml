@@ -12,8 +12,8 @@ url:                 https://www.clockworkmind.com
 enforce_ssl:         www.clockworkmind.com
 baseurl:             ''
 paginate:            5
-markdown:            redcarpet
-highlighter:         pygments
+markdown:            kramdown
+highlighter:         rouge
 
 # About/contact
 author:
