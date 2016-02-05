@@ -46,6 +46,8 @@ What we get back is the date tuple, and since that is the last value before the 
 
 I mostly wrote this out to remind myself that Erlang modules are available as atoms in Elixir, but I like it as an example of piping through a series of data transformations as well.
 
+I found this very helpful: [Calling Erlang code from Elixir: a tale of hubris, strings, and how to read the documentation](http://nickcanzoneri.com/elixir/erlang/2015/08/03/calling-erlang-code-from-elixir.html).
+
 The nice thing about Elixir is that there are a few other ways to do this same thing, and as near as I can tell, they all work about as efficiently. So, you can write code in the way that you find easiest to read.
 
 Stay tuned for more adventures in Elixir.
