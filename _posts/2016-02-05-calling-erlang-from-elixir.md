@@ -13,16 +13,14 @@ I've been doing programming exercises from [Exercism.io](http://exercism.io/), w
 
 This exercise calculates the date one billion seconds after a given date. While there might be some Elixir-native libraries that can do this sort of calculation by now, I decided to use Erlang's [Calendar module](http://erlang.org/doc/man/calendar.html) to transform the data.
 
-{% raw %}
 ```elixir
 def from({year, month, day}) do
-  :calendar.datetime_to_gregorian_seconds({{year, month, day}, {0, 0, 0}})
+  :calendar.datetime_to_gregorian_seconds(&#123;{year, month, day}, {0, 0, 0}&#124;)
   |> + 1000000000
   |> :calendar.gregorian_seconds_to_datetime
   |> elem(0)
 end
 ```
-{% endraw %}
 
 Going through it step-by-step:
 
