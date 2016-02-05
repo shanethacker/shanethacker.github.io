@@ -15,7 +15,7 @@ This exercise calculates the date one billion seconds after a given date. While 
 
 ```elixir
 def from({year, month, day}) do
-  :calendar.datetime_to_gregorian_seconds(\\{{year, month, day}, {0, 0, 0}\\})
+  :calendar.datetime_to_gregorian_seconds({ {year, month, day}, {0, 0, 0} })
   |> + 1000000000
   |> :calendar.gregorian_seconds_to_datetime
   |> elem(0)
