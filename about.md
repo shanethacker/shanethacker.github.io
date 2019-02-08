@@ -25,6 +25,7 @@ I also have some experience in:
 
 * Data
   * Oracle
+  * PostgreSQL
   * MongoDB
   * EHCache
   * JSON
