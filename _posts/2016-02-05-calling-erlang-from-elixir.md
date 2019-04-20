@@ -2,7 +2,7 @@
 layout: post
 title: Calling Erlang from Elixir
 category: programming
-tags: [elixir]
+tags: [elixir,erlang]
 ---
 
 Lately I've been working with Elixir, a new-ish language based on the Erlang VM (BEAM). Elixir is designed to take advantage of Erlang's parallel processing power while presenting the developer with less intimidating syntax.
