@@ -18,3 +18,4 @@ For the curious, a collection of links:
 * [KTH Bio](https://www.kth.se/profile/jlarm/)
 * [@joeerl on Twitter](https://twitter.com/joeerl)
 * [GitHub Profile](https://github.com/joearms)
+* [Erlang Solutions: Remembering Joe, a Quarter of a Century of Inspiration and Friendship](https://www.erlang-solutions.com/blog/remembering-joe-a-quarter-of-a-century-of-inspiration-and-friendship.html)
