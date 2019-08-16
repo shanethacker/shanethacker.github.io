@@ -7,7 +7,7 @@ tags: [jira,server]
 
 Just a quick post to get a solution out there for a weird problem that apparently only I've had.
 
-Over the weekend, I worked on the long-overdue production JIRA upgrade at my work. (Seriously, we were three major versions behind. By the time I became the admin, we were all afraid to touch it for fear of losing our precious workflows.) I had tested the upgrade process on another server, taking that one from 5.2.7 to 7.12 fairly smoothly, except for when it became apparent our test VM needed more than 2GB of RAM. So, forewarned about add-on incompatbilities and upgrade paths, I was reasonably confident I could handle any upgrade weirdness.
+Over the weekend, I worked on the long-overdue production JIRA upgrade at my work. (Seriously, we were three major versions behind. By the time I became the admin, we were all afraid to touch it for fear of losing our precious workflows.) I had tested the upgrade process on another server, taking that one from 5.2.7 to 7.12 fairly smoothly, except for when it became apparent our test VM needed more than 2GB of RAM. So, forewarned about add-on incompatibilities and upgrade paths, I was reasonably confident I could handle any upgrade weirdness.
 
 What I wasn't expecting was for JIRA to refuse to recognize a step in the upgrade process, meaning the carefully planned 5.2.7 to 6.4 to 7.0 to 7.12 path left some pieces behind when the 6.4 upgrade didn't register or run some of the upgrade steps, even though it appeared to be working when tested. Specifically, the Greenhopper/JIRA Agile/JIRA Software transition only about half worked.
 
