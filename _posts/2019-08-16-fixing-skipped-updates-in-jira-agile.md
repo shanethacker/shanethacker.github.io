@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Fixing Skipped Updates in JIRA Agile
+title: Fixing skipped updates in JIRA Agile
 category: tools
 tags: [jira,server]
 ---
