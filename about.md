@@ -32,7 +32,6 @@ I also have some experience in:
   * XML
 * Code
   * JavaScript, inside and outside of frameworks
-  * Java
   * Oracle PL/SQL
   * Python
 * Tools
@@ -45,9 +44,7 @@ I also have some experience in:
   * MXUnit
 * Server
   * Apache
-  * IIS
   * Tomcat
-  * Jetty
 
 A fair amount of my time has been spent on teams small enough that DevOps was inevitable, even before we knew what it was called.
 
@@ -65,6 +62,6 @@ I decided to host this blog on [GitHub Pages](https://pages.github.com) for now.
 
 The blog is based on GitHub's version of [Jekyll](http://jekyllrb.com). The theme is [Lanyon](http://lanyon.getpoole.com), by [@mdo](https://twitter.com/mdo).
 
-I'm typing this up on Microsoft's [Visual Studio Code](https://code.visualstudio.com/) right now, but I'll probably use [Sublime Text](http://www.sublimetext.com/) and [Notepad++](https://notepad-plus-plus.org/) as well. (Actually, what I'm noticing is that I need a spell checker.)
+I'm typing this up on Microsoft's [Visual Studio Code](https://code.visualstudio.com/) right now, but I'll probably use [Notepad++](https://notepad-plus-plus.org/) as well. (Actually, what I'm noticing is that I need a spell checker.)
 
-My personal computer is a MacBook Pro, but work is all Windows. [Getting Jeckyll to work properly on Windows](http://jekyll-windows.juthilo.com/) is interesting.
+My personal computer is from [Framework](https://frame.work). Work is all Windows. [Getting Jeckyll to work properly on Windows](http://jekyll-windows.juthilo.com/) is interesting.
