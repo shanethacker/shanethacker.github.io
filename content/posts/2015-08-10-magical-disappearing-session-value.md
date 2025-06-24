@@ -5,6 +5,7 @@ date: "2015-08-10T00:00:00Z"
 tags:
 - IE
 title: Magical disappearing session value
+pin: true
 ---
 
 Fascinating bug: Intermittent, only reproducible on some computers and not others, only a problem in a certain version of Internet Explorer on those computers, affecting server-side behavior, and faux-consistent. (In other words, the behavior could be consistent, but the consistency was due to a confounding variable rather than the obvious cause.)

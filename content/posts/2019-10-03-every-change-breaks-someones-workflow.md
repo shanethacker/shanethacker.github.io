@@ -7,6 +7,7 @@ tags:
 - users
 - legacy
 title: Every change breaks someone's workflow
+pin: true
 ---
 
 That's the first line of [The Windows Update](https://thedailywtf.com/articles/the-windows-update), a story in The Daily WTF. Punchline: Sometimes you can fix a user's problem by doing something that seems useless.

@@ -35,7 +35,7 @@ expiryDate = ["expiryDate"]
 [taxonomies]
   tag = "tags"
   # Categories are disabled by default.
-  # category = "categories"
+  category = "categories"
 
 [params]
   description = "Reading maketh a full man, conference a ready man, and writing an exact man. - Francis Bacon"
@@ -58,14 +58,14 @@ expiryDate = ["expiryDate"]
   scrollToTop = true
   global_mathjax = false
   readTime = true
-  readTimeSeparator = "Words ... ⏲ Reading Time: "
+  readTimeSeparator = "words ... ⏲ reading time: "
   # legacyLayout = false
   shareSocial = true
   # googleTagManager = "GTM-XXXXXXXX"
-  tagSymbol = "#"
+  # tagSymbol = "#"
   # categorySymbol = "⊲"
-  # pinned = "Pinned Posts"
-  # pinnedSVGname = "pin"
+  pinned = "Pinned"
+  pinnedSVGname = "pin"
   # listLayout = ["description","tags","categories","legacy"]
   # initialPublish = "Initally Posted on: "
   # human = ["single","posts"]
@@ -92,20 +92,42 @@ expiryDate = ["expiryDate"]
     url = "https://bsky.app/profile/shanethacker.bsky.social"
 
   [[params.socialLinks]]
+    name = "author"
+    url = "https://thephantomcity.com"
+
+  [[params.socialLinks]]
     name = "github"
     url = "https://github.com/shanethacker"
+
+  [[params.socialLinks]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/shanethacker/"
+
+  [[params.socialLinks]]
+    name = "email"
+    url = "mailto:shane@clockworkmind.com"
 
 [menu]
 
   [[menu.main]]
-    name = "Posts"
+    name = "posts"
     url = "posts/"
     weight = 10
 
   [[menu.main]]
-    name = "About"
+    name = "about"
     url = "about/"
     weight = 20
+
+  [[menu.main]]
+    name = "tags"
+    url = "tags/"
+    weight = 30
+
+  [[menu.main]]
+    name = "categories"
+    url = "categories/"
+    weight = 40
 
 [caches]
   [caches.images]
